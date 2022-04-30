@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Libre Bodoni', serif;
+    background-image: url('./images/dirty.jpg');
+    background-size: cover;
+    background-repeat: none;
+    background-attachment: fixed;
+    
+}
+
+#containerOne {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44rem;
+    width: auto;
+}
+
+#title {
+    font-size: 10rem;
+    text-align: right;
+    line-height: 1.5;
+}
+
+#img-caption {
+    background-image: url('./images/white.png');
+}
+.firstSectionDiv, .secondSectionDiv {
+    background-color: white;
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.image {
+    width: 40rem;
+    height: auto;
+}
+
+.firstImg, .secondImg {
+    width: 100%;
+    height: auto;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+p {
+    text-justify: auto;
+}
+
+.firstSectionPar {
+    border: 2px solid black;
+    padding: 2%;
+    display: inline-block;
+}
+
+.secondSectionPar {
+    border: 2px solid black;
+    text-align: right;
+    padding: 2%;
+    display: inline-block;
+}
+
+.firstSectionPar p, .secondSectionPar p {
+    font-size: 1.4rem;
+   
+}
+
+@media all and (max-width: 1200px){
+    .firstSectionDiv, .secondSectionDiv {
+        flex-direction: column;
+    }
+
+    #containerOne {
+        flex-direction: column;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    #title {
+        font-size: 7rem;
+        text-align: left;
+        line-height: 1;
+    }
+
+    #image {
+        padding-left: 2rem;
+    }
+
+}
+
+@media all and (max-width: 500px){
+    body{
+        margin: 1rem;
+    }
+
+}
+
+/* #logo {
+    width: auto;
+    height: 90%;
+    padding-top: 10px;
+    border-radius: 50%;
+} */
+
+/* #containerOne {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 90vh;
+    margin-top: 2em;
+    margin-left: 10em;
+} */
+
+/* p, span {
+    background-image: url('./images/white.png');
+    box-shadow: 10px 0px 10px gray;
+    border-radius: 2%;
+    text-justify: auto;
+} */
+
+/* span {
+    width: max-content;
+} */
+
+/* #image {
+    width: 30em;
+    height: auto;
+    max-width: 100%;
+    display: block;
+} */
+
+/* #leftSection {
+   width: auto;
+   height: 70%;
+} */
+
+/* #title{
+    font-size: 12rem;
+    text-shadow: 5px 5px 10px rgb(210, 210, 234);
+    text-align: right;
+    
+} */
+
+/* #tribute-info{
+    font-size: 1.3rem;
+    text-align: left;
+    width: 59%;
+    height: auto;
+    margin-left: 1em;
+    padding: 10px;
+} */
+
+/* #img-div {
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+   
+} */
+
+/* h2 {
+    font-size: 4em;
+    margin-top: 1em;
+    margin-left: 1.5%;
+} */
+
+/* #bottom {
+    background-color: white;
+} */
+
+/* #bottom>p {
+    font-size: 1.3rem;
+    width: 70%;
+    height: auto;
+    margin-left: 1em;
+    padding: 10px;
+    
+} */
